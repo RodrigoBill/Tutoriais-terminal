@@ -1,4 +1,25 @@
-Modificar repositório teste.
-Modificacao de outro usuario.
+Passos GitHub
 
-Nova modificacao depois de alterado direto no git.
+Primeiro passo criar login no github.com
+
+Segundo passo instalar o git através do terminal
+	- $ sudo apt-get install git-core git-gui git-doc
+	
+Terceiro passo gerar chave ssh através do terminal
+(Necessário para conexão com o repositório criado no git)
+	- $ cat ~/.ssh/id_rsa.pub
+	- copiar a chave criada
+	
+Quarto passo acessar o github.com
+	- Account Settings
+	- SSH Public Key
+	- Add another public key
+	- Colocar um nome
+	- colar chave criada no terminal
+	- adicionar a chave
+	
+Quinto passo testar se a chave foi criada corretamente
+	- $ ssh git@github.com
+	
+Sexto passo configurar usuário Git no terminal
+	- $ git config--global 
