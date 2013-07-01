@@ -51,6 +51,7 @@ COMANDOS UTEIS EM UM PROJETO GITHUB
 	- $ git pull (Atualiza o repositorio local para ficar igual ao que esta no github.com).
 	- $ git status (Mostra o que foi modificado, inserido e deletado).
 	- $ git add "nomeDoAquivo" (Adiciona ao projeto).
+	- $ git rm "nomeDoAquivo" (Remove um arquivo, assim que faz o push o arquivo some).
 	- $ git log (Mostra o historico de commit).
 	- $ git revert "codigoDoCommit"
 
@@ -62,3 +63,4 @@ IGNORAR VERSIONAMENTO (DIRETORIOS OU ARQUIVOS QUE NÃO GOSTARIA DE VERSIONAR)
 	- $ touch "nomeDoArquivo".gitignore (Cria um arquivo reconhecido pelo git).
 	- $ vim "nomeDoArquivo" (Acessa o editor no terminal).
 	- Exemplo: digitar target dentro do arquivo.gitignore (Faz com que a pasta target não seja versionada).
+
