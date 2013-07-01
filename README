@@ -45,6 +45,12 @@ CLONAR REPOSITORIO
 	- $ cd "Direorio" (Acessar diretorio).
 	- $ git clone git@github:userRepositoryName/YouRepositoryName.git
 
-===========================================================================
+========================================================================
 
+COMANDOS UTEIS EM UM PROJETO GITHUB
 
+	- $ git pull (Atualiza o repositorio local para ficar igual ao que esta no github.com).
+	- $ git status (Mostra o que foi modificado, inserido e deletado).
+	- $ git add "nomeDoAquivo" (Adiciona ao projeto).
+	- $ git log (Mostra o historico de commit).
+	- $ git revert "codigoDoCommit"
