@@ -1,4 +1,3 @@
-Passos GitHub
 
 Primeiro passo criar login no github.com
 
@@ -54,3 +53,5 @@ COMANDOS UTEIS EM UM PROJETO GITHUB
 	- $ git add "nomeDoAquivo" (Adiciona ao projeto).
 	- $ git log (Mostra o historico de commit).
 	- $ git revert "codigoDoCommit"
+
+========================================================================
