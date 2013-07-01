@@ -1,0 +1,26 @@
+INSTALAR E UTILIZAR O VIM
+	- $ sudo apt-get install vim (Instalar o VIM).
+	- $ vim "nomeDoArquivo" (Abrir o arquivo para edicao).	
+
+==========================================================
+
+COMANDOS DE UTILIZACAO DENTRO DO VIM
+	- i (Para comecar a insercao)
+	- tecla "esc" (Sair da parte de edicao)
+	- :w (Salvar)
+	- :q (Sair)
+	- :q! (Sair sem salvar)
+	- :x ou :wq (Salvar)
+	- :x – para apagar um caracter
+	- u – (undo) para invalidar a ultima acção
+	- dd – apaga uma linha
+	- dw – apagar uma palavra
+	- yy – copiar uma linha
+	- yw – copiar uma palavra
+	- p – colar o que apagamos anteriormente ou copiar uma linha ou palavra
+	- e – mover para a próxima palavra
+	- r – substituir uma palavra
+	- /palavra_a_pesquisar – Palavra a pesquisar
+	- :sp nome_ficheiro_texto – Possibilidade de ter mais do que um ficheiro de texto
+
+ver mais em http://pplware.sapo.pt/linux/comandos-linux-para-totos-tutorial-no26/
