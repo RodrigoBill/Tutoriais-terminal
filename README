@@ -29,11 +29,22 @@ Sexto passo configurar usuário Git no terminal
 
 CRIANDO PROJETO NO GITHUB PELO TERMINAL
 
-Primeiro passo criar um diretorio e transforma-lo em um repositorio
+Criar um diretorio e transforma-lo em um repositorio
 	- $ mkdir ~/YouProjectName (Cria um diretorio).
 	- $ cd ~/YouProjectName (Acessa o diretorio).
 	- $ git init (Transforma o diretorio em um repositorio GIT).
 	- $ touch "YouFileName" (Cria um arquivo dentro do seu repositorio).
 	- $ git add "YouFileName" (Adiciona seu arquivo no repositorio GIT).
-	- $ git commit -m 'Mensagem de commit' 
-	- $ git remote add origin git@github.com:username/"".git
+	- $ git commit -m 'Mensagem de commit' (Prepara as modificacoes para empurrar na master).
+	- $ git remote add origin git@github.com:userGithubName/YouRepositoryName.git (Seleciona o repositorio master que deseja alterar).
+	- $ git push origin master (Empurra as alteracoes para o repositorio master selecionado antes no comando acima).
+
+============================================================================
+
+CLONAR REPOSITORIO
+	- $ cd "Direorio" (Acessar diretorio).
+	- $ git clone git@github:userRepositoryName/YouRepositoryName.git
+
+===========================================================================
+
+
