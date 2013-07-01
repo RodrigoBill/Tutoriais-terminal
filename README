@@ -22,4 +22,18 @@ Quinto passo testar se a chave foi criada corretamente
 	- $ ssh git@github.com
 	
 Sexto passo configurar usuário Git no terminal
-	- $ git config--global 
+	- $ git config --global user.name "NomeNoGithub"
+	- $ git config --global user.mail "EmailNoGithub"
+
+==========================================================================
+
+CRIANDO PROJETO NO GITHUB PELO TERMINAL
+
+Primeiro passo criar um diretorio e transforma-lo em um repositorio
+	- $ mkdir ~/YouProjectName (Cria um diretorio).
+	- $ cd ~/YouProjectName (Acessa o diretorio).
+	- $ git init (Transforma o diretorio em um repositorio GIT).
+	- $ touch "YouFileName" (Cria um arquivo dentro do seu repositorio).
+	- $ git add "YouFileName" (Adiciona seu arquivo no repositorio GIT).
+	- $ git commit -m 'Mensagem de commit' 
+	- $ git remote add origin git@github.com:username/"".git
