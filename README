@@ -55,3 +55,10 @@ COMANDOS UTEIS EM UM PROJETO GITHUB
 	- $ git revert "codigoDoCommit"
 
 ========================================================================
+
+IGNORAR VERSIONAMENTO (DIRETORIOS OU ARQUIVOS QUE NÃO GOSTARIA DE VERSIONAR)
+
+	- Criar um arquivo .gitigonore e listar o que nao gostaria de versionar
+	- $ touch "nomeDoArquivo".gitignore (Cria um arquivo reconhecido pelo git).
+	- $ vim "nomeDoArquivo" (Acessa o editor no terminal).
+	- Exemplo: digitar target dentro do arquivo.gitignore (Faz com que a pasta target não seja versionada).
